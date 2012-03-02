@@ -19,6 +19,16 @@ end
 
 gem 'jquery-rails'
 
+
+group :development do
+   gem 'rspec-rails' , '~> 2.5'
+end
+
+group :test do
+   gem 'rspec' , '~> 2.5'
+end
+
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
